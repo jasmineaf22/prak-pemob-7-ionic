@@ -4,6 +4,10 @@ Prak Pemob shift D
 
 Bagaimana cara untuk menambahkan Komponen di halaman Ionic? Jelaskan secara detail langkahnya.
 
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 1. Menambahkan Komponen Baru di Halaman Ionic
 ionic generate page jokes
 ionic generate page quotes
