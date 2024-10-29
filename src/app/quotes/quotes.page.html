@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Quotes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding custom-background">
+    <ion-card class="fun-card">
+      <ion-card-header>
+        <ion-card-title>Quote of the Day</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>"{{ quote }}"</p>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-button expand="block" (click)="getNewQuote()" color="success" class="animated-button">
+      New Quote 🌟
+    </ion-button>
+  </ion-content>
+  

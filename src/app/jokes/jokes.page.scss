@@ -1,0 +1,20 @@
+.custom-background {
+    --background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  }
+  
+  .fun-card {
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+    --color: #4a90e2;
+  }
+  
+  .animated-button {
+    font-size: 1.2rem;
+    --background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    transition: transform 0.2s;
+  }
+  
+  .animated-button:active {
+    transform: scale(1.1);
+  }
+  

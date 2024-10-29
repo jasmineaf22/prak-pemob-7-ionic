@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Jokes</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content class="ion-padding custom-background">
+    <ion-card class="fun-card">
+      <ion-card-header>
+        <ion-card-title>Here's a Joke for You</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>{{ joke }}</p>
+      </ion-card-content>
+    </ion-card>
+  
+    <ion-button expand="block" (click)="getNewJoke()" color="tertiary" class="animated-button">
+      New Joke 😂
+    </ion-button>
+  </ion-content>
+  
